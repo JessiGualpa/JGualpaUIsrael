@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JGualpaS2D.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Login" FontSize="24" HorizontalTextAlignment="Center"/>
+            <Entry x:Name ="txtDato" Placeholder="Ingrese dato" />
+            <Entry x:Name ="txtDatoDos" Placeholder="Ingrese dato dos"/>
+            <Button x:Name="btnIngresar" Text="Ingresar al Sistema de Calificaciones" Clicked="btnIngresar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

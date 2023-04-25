@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JGualpaS2D.Operacion">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Orientation="Vertical">
+                <Label Text="Sistema de calificaciones" FontSize="24" HorizontalTextAlignment="Center"/>
+                <Label Text="Parcial 1" FontSize="18" HorizontalTextAlignment="Start"/>
+                <!--Datos Numericos-->
+                <Entry x:Name ="txtSegUno" Placeholder="Nota de seguimiento1" Keyboard="Numeric" MaxLength="2"/>
+                <Entry x:Name ="txtExamUno" Placeholder="Nota examen1" Keyboard="Numeric" MaxLength="2"/>
+                <Entry x:Name="txtNotaParcialUno" Placeholder="Nota Parcial 1" IsReadOnly="True"/>
+                <!--Label x:Name="lblNotaParcialUno" FontSize="18"/-->
+                <Button x:Name="btnCarcularUno" Text="Calcular parcial 1" Clicked="btnCarcularUno_Clicked"/>
+
+                <Label Text="Parcial 2" FontSize="18" HorizontalTextAlignment="Start"/>
+
+                <Entry x:Name ="txtSegDos" Placeholder="Nota de seguimiento2" Keyboard="Numeric" MaxLength="2"/>
+                <Entry x:Name ="txtExamDos" Placeholder="Nota examen2" Keyboard="Numeric" MaxLength="2"/>
+                <Entry x:Name="txtNotaParcialDos" Placeholder="Nota Parcial 2" IsReadOnly="True"/>
+                <!--Label x:Name="lblNotaParcialDos" FontSize="18"/-->
+                <Button x:Name="btnCarcularDos" Text="Calcular parcial 2" Clicked="btnCarcularDos_Clicked"/>
+
+
+                <!--<Label x:Name="lblEstado" FontSize="18"/-->
+                <Entry x:Name ="txtEstado" Placeholder="Promedio" />
+                <Button x:Name="btnEstado" Text="Estado" Clicked="btnEstado_Clicked"/>
+
+            <Button x:Name="btnlimpiar" Text ="Limpiar" Clicked ="btnlimpiar_Clicked"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

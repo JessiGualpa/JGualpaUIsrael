@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nRVRSPh5VcQTkhewns8GQ8mLHW4RHEC/VAeiln1VWB+Yls96jwwog6/2gtiv5MMaGhG7OgCJgu2qjz9XzEBv7A==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\Aplicaciones_Moviles\\JGualpaS2D\\JGualpaS2D\\JGualpaS2D.iOS\\JGualpaS2D.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brays\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\brays\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\brays\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
